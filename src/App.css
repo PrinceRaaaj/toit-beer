@@ -143,7 +143,7 @@ section {
   width: 650px;
 }
 .section4_bottle {
-  right: -20%;
+  right: -25%;
   width: 850px;
 }
 @media only screen and (max-width: 1475px) {
@@ -153,6 +153,16 @@ section {
   }
   .section4_bottle {
     right: -20%;
+    width: 650px;
+  }
+}
+@media only screen and ( max-width: 1300px) {
+  .section4_glass {
+    left: -20%;
+    width: 500px;
+  }
+  .section4_bottle {
+    right: -25%;
     width: 650px;
   }
 }
