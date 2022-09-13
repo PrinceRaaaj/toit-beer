@@ -1,6 +1,6 @@
 const Section6 = () => {
     return <>
-        <section className="section6 d-flex align-items-center justify-content-center">
+        <section className="section3 d-flex align-items-center justify-content-center">
             <div className="row w-100">
                 <div className="col-md-6"></div>
                 <div className="col-md-6 d-flex align-items-center justify-content-center">
@@ -11,7 +11,15 @@ const Section6 = () => {
             </div>
             <div className="row position-absolute container w-75">
                 <p className="section3_heading">YOU SHOULD BE TOO.</p>
-                <p className="w-50">Toit is a brew pub, brewing a revolutionary culture. We started out as a sweet little Bengaluru brewing culture with the promise of some bodacious brews, fabulous foods and a supreme brew-pub experience</p>
+                <p className=" section3_paragraph w-50">Toit is a brew pub, brewing a revolutionary culture. We started out as a sweet little Bengaluru brewing culture with the promise of some bodacious brews, fabulous foods and a supreme brew-pub experience</p>
+                <p>
+                    <button className="section5_button p-3 px-4 mx-2 ">
+                        Order Now
+                        <span className="mx-1">
+                            <img width="20" src="/images/section5/Group 63.png" />
+                        </span>
+                    </button>
+                </p>
             </div>
         </section>
     </>

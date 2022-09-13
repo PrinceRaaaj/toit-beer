@@ -9,10 +9,9 @@ const Section3 = () => {
                 </div>
             </div>
             <div className="row position-absolute container w-75">
-                <p>About Us</p>
-                <p className="section3_heading">WE ARE TOIT.</p>
-                <p className="section3_heading">YOU SHOULD BE TOO.</p>
-                <p className="w-50">Toit is a brew pub, brewing a revolutionary culture. We started out as a sweet little Bengaluru brewing culture with the promise of some bodacious brews, fabulous foods and a supreme brew-pub experience</p>
+                <p className="font-weight-bold">ABOUT US</p>
+                <p className="section3_heading">WE ARE TOIT. <br />YOU SHOULD BE TOO.</p>
+                <p className="section3_paragraph w-50">Toit is a brew pub, brewing a revolutionary culture. We started out as a sweet little Bengaluru brewing culture with the promise of some bodacious brews, fabulous foods and a supreme brew-pub experience</p>
             </div>
         </section>
     </>
